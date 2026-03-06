@@ -17,8 +17,8 @@
 	</head>
 
 	<body>
-		<dialog class="aaroncebg">
-			<section class="neuille">
+		<dialog class="start">
+			<section class="top">
 				<div class="flex">
 					<svg
 						width="31"
@@ -167,6 +167,7 @@
 			</nav>
 		</header>
 		<main>
+			<div class="glob">
 			<section class="morpion">
 				<button type="morpion" class="case" id="p1"></button>
 				<button type="morpion" class="case" id="p2"></button>
@@ -178,7 +179,21 @@
 				<button type="morpion" class="case" id="p8"></button>
 				<button type="morpion" class="case" id="p9"></button>
 			</section>
-			<section class="info"></section>
+			<section class="info">
+				<div class="blueinfo">
+					<h5>X (P2)</h5>
+					<p class="nombre">14</p>
+				</div>
+				<div class="grisinfo">
+					<h5>TIES</h5>
+					<p class="nombre">32</p>
+				</div>
+				<div class="yellowinfo">
+					<h5>O (CPU)</h5>
+					<p class="nombre">11</p>
+				</div>
+			</section>
+			</div>
 		</main>
 
 		<script src="app.js"></script>
